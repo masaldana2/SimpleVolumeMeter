@@ -14,6 +14,8 @@
 		202894991E7D0A29006D3F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202894971E7D0A29006D3F23 /* LaunchScreen.storyboard */; };
 		202894A41E7D0A29006D3F23 /* tapOnPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202894A31E7D0A29006D3F23 /* tapOnPlayerTests.swift */; };
 		202894AF1E7D0A29006D3F23 /* tapOnPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202894AE1E7D0A29006D3F23 /* tapOnPlayerUITests.swift */; };
+		202894BD1E7D0A6E006D3F23 /* sample2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 202894BC1E7D0A6E006D3F23 /* sample2.m4a */; };
+		208BA69F1E7DBB2200FF6696 /* Electronic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 208BA69E1E7DBB2200FF6696 /* Electronic.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		202894AA1E7D0A29006D3F23 /* tapOnPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapOnPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		202894AE1E7D0A29006D3F23 /* tapOnPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapOnPlayerUITests.swift; sourceTree = "<group>"; };
 		202894B01E7D0A29006D3F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202894BC1E7D0A6E006D3F23 /* sample2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample2.m4a; sourceTree = "<group>"; };
+		208BA69E1E7DBB2200FF6696 /* Electronic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Electronic.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				2028948E1E7D0A29006D3F23 /* AppDelegate.swift */,
 				202894901E7D0A29006D3F23 /* ViewController.swift */,
 				202894921E7D0A29006D3F23 /* Main.storyboard */,
+				202894BC1E7D0A6E006D3F23 /* sample2.m4a */,
+				208BA69E1E7DBB2200FF6696 /* Electronic.m4a */,
 				202894951E7D0A29006D3F23 /* Assets.xcassets */,
 				202894971E7D0A29006D3F23 /* LaunchScreen.storyboard */,
 				2028949A1E7D0A29006D3F23 /* Info.plist */,
@@ -237,7 +243,9 @@
 			files = (
 				202894991E7D0A29006D3F23 /* LaunchScreen.storyboard in Resources */,
 				202894961E7D0A29006D3F23 /* Assets.xcassets in Resources */,
+				208BA69F1E7DBB2200FF6696 /* Electronic.m4a in Resources */,
 				202894941E7D0A29006D3F23 /* Main.storyboard in Resources */,
+				202894BD1E7D0A6E006D3F23 /* sample2.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				202894B51E7D0A29006D3F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202894B61E7D0A29006D3F23 /* Build configuration list for PBXNativeTarget "tapOnPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				202894B81E7D0A29006D3F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202894B91E7D0A29006D3F23 /* Build configuration list for PBXNativeTarget "tapOnPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				202894BB1E7D0A29006D3F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
